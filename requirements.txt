@@ -1,0 +1,15 @@
+# requirements.txt (V2.0 - Core Engine Only)
+
+# Core LangChain and AI dependencies
+langchain
+langchain-community
+ollama
+
+# Database and Data Handling
+chromadb
+redis
+pydantic
+PyYAML
+
+# Note: We have removed fastapi, uvicorn, and other web server
+# dependencies. They will be added back in the final packaging phase.
